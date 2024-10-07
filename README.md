@@ -1,26 +1,37 @@
-# AgapeIThw
-For all coding homework presently and in the future
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-    <head> <title>Web Dev</title>
-        <style>
-            *{
-                background-color: rgba(1, 16, 19, 0.897);
-            }
-        </style>
-    </head>
-    <body>
-        <h1 style="background-color: rgb(141, 4, 175);text-align: center;color: rgb(0, 0, 0);">This is a practice run</h1>
-        <h1 style="background-color: rgb(110, 1, 153);text-align: center;color:  rgb(0, 0, 0);">This is a practice run</h1>
-        <h1 style="background-color: rgb(72, 1, 153);text-align: center;color:  rgb(0, 0, 0);">This is a practice run</h1>
-        <h1 style="background-color: rgb(42, 1, 153);text-align: center;color:  rgb(0, 0, 0);">This is a practice run</h1>
-        <h1 style="background-color: rgb(1, 80, 153);text-align: center;color:  rgb(0, 0, 0);">This is a practice run</h1>
-        <h1 style="background-color: rgb(1, 118, 153);text-align: center;color:  rgb(0, 0, 0);">This is a practice run</h1>
-        <h1 style="background-color: rgb(1, 153, 140);text-align: center;color:  rgb(0, 0, 0);">This is a practice run</h1>
-        <h1 style="background-color: rgb(1, 153, 69);text-align: center;color:  rgb(0, 0, 0);">This is a practice run</h1>
-        <h1 style="background-color: rgb(87, 153, 1);text-align: center;color:  rgb(0, 0, 0);">This is a practice run</h1>
-        <h1 style="background-color: rgb(125, 153, 1);text-align: center;color:  rgb(0, 0, 0);">This is a practice run</h1>
-        <h1 style="background-color: rgb(153, 100, 1);text-align: center;color:  rgb(0, 0, 0);">This is a practice run</h1>
-    </body>
-   
+<head>
+    <style>
+        ul {
+list-style-type: none;
+margin: 0;
+padding: 0%;
+overflow: hidden;
+background-color: azure;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: rgba(0, 153, 255, 0.966);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: black;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Navigation bar</h2>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+</body>
 </html>
